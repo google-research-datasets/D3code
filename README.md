@@ -18,4 +18,9 @@ The repo contains the data card for the SeeGULL dataset, following the format pr
 - ```ratings.csv```: each row represents a rating assigned to an item by a rater. Two columns show the (1) raw rating: a value from 0 to 4, 0 being not offensive at all and 5 being extremely offensive, a value of -1 in this column means that the rater did not understand the message, and (2) binary rating: a binary value, with 0 showing a raw rating of 0 or 1, and 1 showing a raw rating of 2 or higher. A ```na``` value is equal to a raw rating of -1. 
 
 # Citation
-TBA
+@article{davani2024d3code,\
+  &ensp;title={D3CODE: Disentangling Disagreements in Data across Cultures on Offensiveness Detection and Evaluation},\
+  &ensp;author={Davani, Aida Mostafazadeh and D{\'\i}az, Mark and Baker, Dylan and Prabhakaran, Vinodkumar},\
+  &ensp;journal={arXiv preprint arXiv:2404.10857},\
+  &ensp;year={2024}\
+}
