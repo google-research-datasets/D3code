@@ -15,7 +15,7 @@ The repo contains the data card for the SeeGULL dataset, following the format pr
 
 - ```items.csv```: each row represents an item, selected from the Jigsaw dataset, along with their textual content, their category (one of moral, random, or social group) and their subcategroy. These two fields point to the strategy used for collecting the item.
 
-- ```ratings.csv```: each row represents a rating assigned to an item by a rater. Two columns show the (1) raw rating: a value from 0 to 4, 0 being not offensive at all and 5 being extremely offensive, a value of -1 in this column means that the rater did not understand the message, and (2) binary rating: a binary value, with 0 showing a raw rating of 0 or 1, and 1 showing a raw rating of 2 or higher. A ```na``` value is equal to a raw rating of -1. 
+- ```ratings.csv```: each row represents a rating assigned to an item by a rater. Two columns show the (1) raw rating: a value from 0 to 4, 0 being not offensive at all and 5 being extremely offensive, a value of -1 in this column means that the rater did not understand the message, and (2) binary rating: a binary value, with 0 showing a raw rating of 0 or 1, and 1 showing a raw rating of 2 or higher. An ```na``` is equal to a raw rating of -1. 
 
 # Citation
 @article{davani2024d3code,\
