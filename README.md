@@ -9,7 +9,7 @@ D3code is a large-scale cross-cultural dataset of parallel annotations for offen
 
 # Dataset Description
 
-The repo contains the data card for the SeeGULL dataset, following the format proposed by [Pushkarna et al.](https://arxiv.org/abs/2204.01075). The data card includes details of the dataset such as intended usage, field names and meanings, annotator recruitment and payments. The dataset folder contains the following 3 files:
+The repo contains the data card for the D3code dataset, following the format proposed by [Pushkarna et al.](https://arxiv.org/abs/2204.01075). The data card includes details of the dataset such as intended usage, field names and meanings, annotator recruitment and payments. The dataset folder contains the following 3 files:
 
 - ```raters.csv```: each row represents a participant of the study, along with their unique anonomous id, age, gender, self-reported socio-economic statues, country and region of residence.
 
